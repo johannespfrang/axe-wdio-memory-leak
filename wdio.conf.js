@@ -15,6 +15,7 @@ export const config = {
 	logLevel: "info",
 	framework: "mocha",
 	reporters: ["spec"],
+	//reporters: ["dot"], // also happens with this
 	/** @type {import('mocha').MochaOptions} */
 	mochaOpts: {
 		ui: "bdd",

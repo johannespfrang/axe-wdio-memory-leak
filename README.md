@@ -1,4 +1,4 @@
-# @axe/webdriverio and/or @webdriverio/spec-reporter memory leak
+# @axe/webdriverio leak
 
 Simply run `npm install` and then:
 
