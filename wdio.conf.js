@@ -14,14 +14,7 @@ export const config = {
 	],
 	logLevel: "info",
 	framework: "mocha",
-	reporters: [
-		[
-			"spec",
-			{
-				onlyFailures: true,
-			},
-		],
-	],
+	reporters: ["spec"],
 	/** @type {import('mocha').MochaOptions} */
 	mochaOpts: {
 		ui: "bdd",
